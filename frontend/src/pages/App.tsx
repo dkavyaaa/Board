@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Typography, CircularProgress, Box } from "@mui/material";
 import TranscriptForm from "../components/TranscriptForm";
-import ActionItemList from "../components/ActionItemList";
+import ActionItemList from "../components/ActionItemsList";
 import ProgressPieChart from "../components/ProgressPieChart";
 import { useActionItems } from "../hooks/useActionItems";
 

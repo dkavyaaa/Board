@@ -5,8 +5,8 @@ import {
   ListItemText,
   Checkbox,
   IconButton,
+  Icon,
 } from "@mui/material";
-import DeleteIcon from "@mui/icons-material/Delete";
 import { ActionItem } from "../api";
 
 interface ActionItemListProps {
@@ -27,7 +27,7 @@ const ActionItemList: React.FC<ActionItemListProps> = ({
           key={item.id}
           secondaryAction={
             <IconButton edge="end" onClick={() => onDelete(item.id)}>
-              <DeleteIcon />
+               <Icon>delete</Icon>
             </IconButton>
           }
           disablePadding
